@@ -1,0 +1,3 @@
+include ':TutorialView'
+include ':app'
+rootProject.name = "SimpleTutorialView"

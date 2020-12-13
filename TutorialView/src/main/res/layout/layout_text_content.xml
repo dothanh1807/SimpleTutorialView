@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@android:color/holo_blue_bright">
+
+  <View
+      android:id="@+id/viewArrowOnTop"
+      android:visibility="invisible"
+      android:background="@drawable/background_triangle_white"
+      android:layout_marginStart="@dimen/default_margin_xlarge"
+      android:layout_width="@dimen/default_margin_xlarge"
+      android:layout_height="@dimen/default_margin_large"/>
+
+  <TextView
+      android:id="@+id/textContentDescription"
+      android:gravity="center"
+      android:textColor="@android:color/holo_blue_light"
+      android:background="@drawable/background_shape_corner_white"
+      android:layout_below="@id/viewArrowOnTop"
+      android:layout_marginTop="-6dp"
+      android:layout_marginStart="@dimen/default_margin_xlarge"
+      android:layout_marginEnd="@dimen/default_margin_xlarge"
+      android:layout_marginBottom="-6dp"
+      android:paddingStart="@dimen/default_margin_small"
+      android:paddingEnd="@dimen/default_margin_small"
+      android:minHeight="@dimen/default_margin_4xlarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+  <View
+      android:id="@+id/viewArrowOnBottom"
+      android:visibility="invisible"
+      android:rotation="180"
+      android:layout_below="@id/textContentDescription"
+      android:background="@drawable/background_triangle_white"
+      android:layout_marginStart="@dimen/default_margin_xlarge"
+      android:layout_width="@dimen/default_margin_xlarge"
+      android:layout_height="@dimen/default_margin_large"/>
+
+</RelativeLayout>

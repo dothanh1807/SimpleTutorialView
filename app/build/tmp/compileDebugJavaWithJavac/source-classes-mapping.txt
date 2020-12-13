@@ -1,0 +1,2 @@
+com/vllenin/simpletutorialview/BuildConfig.java
+ com.vllenin.simpletutorialview.BuildConfig

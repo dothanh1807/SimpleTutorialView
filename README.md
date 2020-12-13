@@ -58,7 +58,14 @@ class MainActivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             tutorialView.focusToView(mapViews)
                 .setCancelListener {
-
+                    // Marked as read to SharedPreferences file
+//                    val mapViewsSecond = mutableMapOf<String, View>()
+//                    val textForIcon2 = "This is icon 2"
+//                    mapViews[textForIcon] = iconX
+//                    tutorialView.focusToView(mapViews)
+//                        .setCancelListener {
+//                            // Marked as read to SharedPreferences file
+//                        }
                 }
         }, 2000)
 

@@ -2,7 +2,23 @@
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/52622713/102005791-5358bd00-3d4e-11eb-955a-9aa9414b923d.gif)
 
+Add it in your gradle project:
+```javascript
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Add the dependency:
+```javascript
+dependencies {
+	implementation 'com.github.dothanh1807:SimpleTutorialView:1.0.0'
+}
+```
 Code:
+
 ```javascript
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout

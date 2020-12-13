@@ -1,6 +1,5 @@
 # SimpleTutorialView
-
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/52622713/102005791-5358bd00-3d4e-11eb-955a-9aa9414b923d.gif)
+<img width="350" alt="Screenshot 2020-12-13 at 16 02 45" src="https://user-images.githubusercontent.com/52622713/102007558-bb160480-3d5c-11eb-8fc9-5799a5462d51.png"> ![ezgif com-gif-maker](https://user-images.githubusercontent.com/52622713/102007560-bfdab880-3d5c-11eb-98f5-237e9064d74f.gif)
 
 Add it in your gradle project:
 ```javascript
